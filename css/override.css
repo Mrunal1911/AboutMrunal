@@ -1,0 +1,222 @@
+body { 
+  background: url(http://xgallery.me/wp-content/uploads/2017/04/playerunknownsbattleground-ha-vendido-mas-de-1-millon-de-copias.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#demo {
+	width: 714px;
+	height: 590px;
+	background: url(../images/demo.gif);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	clip: rect(-36px,60px,200px,0px);
+	background-position: center;
+	margin-top: 12px;
+	border: 2px solid #d1d1d1;
+}	
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1024px;
+}	
+
+.button {
+	backround: #F7931A !important;
+}
+
+.tabs.travel-organiser-tabs {
+    width: 100% !important;
+}
+
+.vertical-middle {
+	top: 300px !Important;
+}
+
+.intro h2, h3 {
+	color: #EFEFEF !Important;
+}
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	width: 685px;
+	margin: 0 auto;
+}
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 22px;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.travel-organiser-tabs .tab-container {
+	padding: 12px;
+	padding-top: 0px;
+}
+
+.bottommargin-sm {
+    margin-bottom: 12px !important;
+}
+
+.swiper_wrapper {
+    height: 788px;
+}
+
+#footer .footer-widgets-wrap {
+    position: relative;
+    padding: 42px 0px;
+}
+
+#copyrights {
+    padding: 16px 0px;
+    background-color: #DDD;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/*
+  Tables
+*/  
+
+table a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+table a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	color: snow;
+	font-size:12px;
+	background:#eaebec;
+	margin: 0;
+	border:#FFF 1px solid;
+	width: 100%;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+table th {
+	padding:10px 10px 10px 10px;
+/* 	border-top:1px solid #fafafa; */
+	border-bottom:1px solid #e0e0e0;
+	font-size: 14px;
+/* 	background: #262626; */
+/* 	background: -webkit-gradient(linear, left top, left bottom, from(#141414), to(#262626));
+	background: -moz-linear-gradient(top,  #141414,  #262626); */
+
+	
+}
+table th:first-child {
+	text-align: left;
+	padding-left:20px;
+}
+table tr:first-child th:first-child {
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+table tr:first-child th:last-child {
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table td {
+	padding:8px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	color: #3A628D;
+	font-size: 14px;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+table tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+
+thead {
+	background: url('../images/table-top-2.png') !Important;
+}
